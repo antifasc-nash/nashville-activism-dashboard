@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 248, 250, 252; /* Paper White */
+  --background-start-rgb: 15, 23, 42; /* Vigilant Navy */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+/* Custom button hover effect for our Nashville Modern aesthetic */
+.btn-rally {
+  @apply bg-brand-yellow text-brand-navy font-bold py-2 px-6 rounded-nad hover:opacity-90 transition-all active:scale-95;
+}
