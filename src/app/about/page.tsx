@@ -36,7 +36,7 @@ export default function AboutPage() {
             <div className="bg-brand-coalition p-6 rounded-nad border border-brand-slate/10">
               <span className="text-brand-yellow font-black text-4xl block mb-4">01</span>
               <h3 className="font-bold mb-2">Register & Vet</h3>
-              <p className="text-sm text-brand-slate">Apply as a volunteer or organization. Organizers from the same organization will be able to see all opportunities hosted by their organization and can delegate "leads" as necessary. Our team manually verifies every applicant to maintain community trust.</p>
+              <p className="text-sm text-brand-slate">Apply as a volunteer or organization. If you apply as an individual, you will fill out a short form that our vetters will review before granting access to the dashboard. We apologize for any delay! Organizers from the same organization will be able to see all opportunities hosted by their organization and can delegate "leads" as necessary. Our team manually verifies every applicant to maintain community trust.</p>
             </div>
             <div className="bg-brand-coalition p-6 rounded-nad border border-brand-slate/10">
               <span className="text-brand-yellow font-black text-4xl block mb-4">02</span>
