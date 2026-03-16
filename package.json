@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-  "next": "14.2.0",
-  "react": "^18",
-  "react-dom": "^18",
-  "lucide-react": "latest",
-  "@supabase/supabase-js": "latest",
-  "@supabase/auth-helpers-nextjs": "latest",
-  "clsx": "latest",
-  "tailwind-merge": "latest"
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "lucide-react": "latest",
+    "@supabase/supabase-js": "latest",
+    "@supabase/auth-helpers-nextjs": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
   }
   },
   "devDependencies": {
