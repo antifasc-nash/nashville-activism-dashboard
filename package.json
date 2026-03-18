@@ -16,7 +16,8 @@
     "@supabase/supabase-js": "latest",
     "@supabase/auth-helpers-nextjs": "latest",
     "clsx": "latest",
-    "tailwind-merge": "latest"
+    "tailwind-merge": "latest",
+    "tailwindcss-animate": "latest"
   },
   "devDependencies": {
     "typescript": "^5",
