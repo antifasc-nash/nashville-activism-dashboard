@@ -2,16 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --background: 222.2 84% 4.9%; /* This is your Dark Mode background */
-    --foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+@layer components {
+  .btn-rally {
+    @apply bg-brand-yellow text-vigilant-navy font-bold py-3 px-8 rounded-nad hover:opacity-90 transition-all text-center inline-block;
   }
 }
 
 body {
-  @apply bg-vigilant-navy text-white;
+  @apply bg-vigilant-navy text-white antialiased;
 }
