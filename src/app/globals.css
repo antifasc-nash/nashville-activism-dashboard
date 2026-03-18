@@ -2,17 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 248, 250, 252; /* Paper White */
-  --background-start-rgb: 15, 23, 42; /* Vigilant Navy */
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%; /* This is your Dark Mode background */
+    --foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-start-rgb));
-}
-
-/* Custom button hover effect for our Nashville Modern aesthetic */
-.btn-rally {
-  @apply bg-brand-yellow text-brand-navy font-bold py-2 px-6 rounded-nad hover:opacity-90 transition-all active:scale-95;
+  @apply bg-vigilant-navy text-white;
 }
