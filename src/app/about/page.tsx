@@ -83,7 +83,7 @@ export default function AboutPage() {
       </div>
 
       <footer className="mt-32 pt-10 border-t border-brand-slate/10 text-center">
-        <Link href="/signup/volunteer" className="btn-rally">
+        <Link href="/volunteer" className="btn-rally"> 
           Join the Community
         </Link>
       </footer>
