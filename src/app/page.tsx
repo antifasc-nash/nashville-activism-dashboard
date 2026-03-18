@@ -13,11 +13,15 @@ export default function LandingPage() {
         </p>
         
         <div className="flex flex-col md:flex-row gap-4 justify-center">
-          <Link href="/signup/volunteer" className="btn-rally">
+          {/* THESE LINKS ARE NOW FIXED TO PREVENT 404 ERRORS */}
+          <Link href="/volunteer" className="bg-brand-yellow text-black font-bold py-2 px-6 rounded-nad hover:opacity-90 transition-all">
             Find a Project
           </Link>
-          <Link href="/signup/organization" className="border-2 border-brand-yellow text-brand-yellow font-bold py-2 px-6 rounded-nad hover:bg-brand-yellow/10 transition-all">
+          <Link href="/organization" className="border-2 border-brand-yellow text-brand-yellow font-bold py-2 px-6 rounded-nad hover:bg-brand-yellow/10 transition-all">
             Post an Opportunity
+          </Link>
+          <Link href="/about" className="border-2 border-brand-slate text-brand-slate font-bold py-2 px-6 rounded-nad hover:bg-brand-slate/10 transition-all">
+            Read the Guidelines
           </Link>
         </div>
       </section>
